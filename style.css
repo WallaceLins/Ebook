@@ -1,0 +1,31 @@
+@import url(estilo/header.css);
+@import url(estilo/banner.css);
+@import url(estilo/carrossel.css);
+@import url(estilo/tópico.css);
+@import url(estilo/contato.css);
+@import url(estilo/footer.css);
+
+:root{
+    /* Cores do Site*/
+    --cor-de-fundo-body: #EBECEE;
+    --cor-de-fundo-header: #ffffff;
+    --cor-titulo-do-menu: #EB9B00;
+    --cor-do-item-menu:linear-gradient(97.54deg, #002F52 35.49%, #326589 165.37%);
+    --cor-Azul: #002F52;
+    --cor-preto: #000000;
+    --cor-cinza-claro: #858585;
+    --cor-cinza: #474646;
+
+
+
+
+    /*Font do Site*/
+    --Fonte-do-Site: 'Poppins';
+    --Fonte-Secundária: 'Josefin Sans';
+}
+
+body{
+    background-color: var(--cor-de-fundo-body);
+    font-family: var(--Fonte-do-Site);
+    font-weight: 400;
+}
